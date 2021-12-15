@@ -4609,9 +4609,10 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 .navbar-brand {
     float: left;
     height: 50px;
-    padding: 15px 15px;
+/*    padding: 15px 15px;*/
     font-size: 18px;
     line-height: 20px
+    padding: 0px; /* firefox bug fix */
 }
 
 .navbar-brand:focus, .navbar-brand:hover {
@@ -4619,7 +4620,10 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 }
 
 .navbar-brand > img {
-    display: block
+/*    display: block*/
+    height: 100%;
+    padding: 15px; /* firefox bug fix */
+    width: auto;
 }
 
 @media (min-width: 768px) {
