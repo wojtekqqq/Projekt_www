@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <title>Geomax</title>
+    <meta name="author" content="Sławomir Aleksak WSEI 2021">
+    <meta name="publisher" content="Sławomir Aleksak WSEI 2021">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link href="../css/default.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand " href="../index.html"><img src="../img/logo.png"  alt="logo"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="../index.html">Home</a></li>
+                <li><a href="about.html">O firmie</a></li>
+                <li><a href="projekcts.html">Projekty</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid text-center">
+
+    <div class="row content">
+        <div class="border-end bg-white col-sm-2 sidenav" id="sidebar-wrapper">
+            <div class="h4 border-bottom bg-light lead">Nasz sprzęt
+            </div>
+            <div class="list-group list-group-flush">
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="tach.html">Tachimetry</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="drone.html">Drony</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="gps.html">GPS </a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="soft.html">Dedykowane oprogramowanie</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3 " href="gallery.html">Galeria</a>
+            </div>
+        </div>
+        <div class="col-sm-9 text-left">
+            <div class="container-fluid text-center">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div>
+                            <form class="form-horizontal" action="" method="post">
+                                <fieldset>
+<!--                                    <legend class="text-center">Skontaktuj się z nami</legend>-->
+                                    <h4 class="text-center">Skontaktuj się z nami</h4>
+                                    <!-- -->
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label" for="name">Imię i nazwisko</label>
+                                        <div class="col-md-9">
+                                            <input id="name" name="name" type="text" placeholder="Twoje Imię i nazwisko" class="form-control">
+                                        </div>
+                                    </div>
+
+                                    <!-- -->
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label" for="email">E-mail</label>
+                                        <div class="col-md-9">
+                                            <input id="email" name="email" type="text" placeholder="Twój E-mail" class="form-control">
+                                        </div>
+                                    </div>
+
+                                    <!--  -->
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label" for="message">Twoja wiadomość</label>
+                                        <div class="col-md-9">
+                                            <textarea class="form-control" id="message" name="message" placeholder="Proszę wpisać treść wiadomości..." rows="5"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <!-- -->
+                                    <div class="form-group">
+                                        <div class="col-md-12 text-right">
+<!--                                            <a class="navbar-brand " href="../index.html"><img src="../img/logo.png"  alt="logo"></a>-->
+                                            <button type="button" class="btn btn-primary btn-lg" onclick=" location.href='../index.html'">Wyślij</button>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+</div>
+<footer class="container-fluid text-center">
+    <p>Wszelkie prawa zastrzeżone © 2021 Geomax sp. z o. o.</p>
+</footer>
+
+</body>
+</html>
