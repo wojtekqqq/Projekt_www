@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <title>Geomax</title>
+    <title>Geomax - kontakt</title>
     <meta name="author" content="Sławomir Aleksak WSEI 2021">
     <meta name="publisher" content="Sławomir Aleksak WSEI 2021">
     <meta charset="utf-8">
@@ -87,7 +87,12 @@
                                     <div class="form-group">
                                         <div class="col-md-12 text-right">
 <!--                                            <a class="navbar-brand " href="../index.html"><img src="../img/logo.png"  alt="logo"></a>-->
-                                            <button type="button" class="btn btn-primary btn-lg" onclick=" location.href='../index.html'">Wyślij</button>
+                                            <button type="button" class="btn btn-primary btn-lg" onclick="location.href='../index.html', wyslij()">Wyślij</button>
+                                            <script>
+                                                function wyslij() {
+                                                    alert("Wiadomość została wysłana!");
+                                                }
+                                            </script>
                                         </div>
                                     </div>
                                 </fieldset>
